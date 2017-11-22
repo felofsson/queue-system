@@ -68,9 +68,6 @@ where ```x``` holds all your results and the function is able to run independent
 
 * After getting friends with ```main_demo.m```, modify or create your own version of it. The magic line is when ```queue_system(folder_path)``` is called -- this is the line you type in all your MATLAB instances to speed up the completion of the wish-list.
 * For the lazy, create an alias on your user, so that you only need to start a new terminal and run a simple command that 1. Opens MATLAB with no desktop, 2. Runs ```queue_system``` with the folder path of your choice. On UNIX-based systems, this one-liner could look like this: ```matlab -nodesktop -nojvm -r queue_system('path/to/folder/')```
-* *
-
-
 
 
 
